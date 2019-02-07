@@ -1,0 +1,6 @@
+baseURL = "https://wander.haus/"
+defaultContentLanguage = "en"
+enableEmoji = true
+title = "Wander.Haus"
+googleAnalytics = ""
+languageCode = "en-us"
