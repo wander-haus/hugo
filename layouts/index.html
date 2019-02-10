@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
 <head>
     <meta charset="utf-8">
     {{ .Hugo.Generator }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/skeleton.css">
     <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/kube.min.css">
     <title>Wander.Haus</title>
 </head>
-<body>
 
-<div class="container">
-        <div class="row">
-            <div class="column">
-                <object class="clouds" data="/images/clouds.svg" ></object>
-                
-            </div>
-        </div>
-        <div class="row">
-                <div class="column">
-                    <div class="main-image-container">
-                            <object class="main-image" data="/images/main.svg" ></object>
+<body>
+    <main class="main">
+        <section class="section" style="height:100vh">
+            <div class="container" style="padding: 0 5rem">
+                <div style="width: 100%">
+                    <object data="/images/cloud0x.svg" style="max-width:8rem;float:right"></object>
+                    <object data="/images/cloud1x.svg" style="max-width:12rem;float:right"></object>
+                </div>
+                <div style="width: 100%">
+                    <object data="/images/cloud2x.svg" style="max-width:24rem"></object>
+                </div>
+                <div style="width: 100%;">
+                    <div style="margin-top: -2.5rem">
+                        <object style="max-width:36rem;margin:0 auto;display: block;" data="/images/logo.svg"></object>
                     </div>
-                        
                 </div>
             </div>
-        
-</div>
+        </section>
 
+        <section class="section columns is-vcentered" style="height:100vh">
+            <div class="columns is-centered is-vcentered" style="width: 100%">
+                <div class="column is-half">
+                    <object data="/images/w-drawing.svg" class="section-image" style="float: right; max-width: 50%"></object>
+                </div>
+                <div class="column is-half">
+                    <h1 class="title wander-text">Web Development</h1>
+                    <p class="wander-text">- HTML/CSS <br/>
+                            - React <br/>
+                            - Angular <br/>
+                            - Vue <br/>
+                            - Hugo <br/>
+                            - Wordpress</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" style="height:100vh; width: 100%">
+            <div class="columns is-centered is-vcentered" style="width: 100%">
+                <div class="column is-half" style="text-align:right;">
+                    <h1 class="title wander-text">Machine Learning</h1>
+                    <p class="wander-text">
+                            Tensorflow - <br/>
+                            TFX Platform - <br/>
+                            Kafka - <br/>
+                            Apache Beam - <br/>
+                            Keras - <br/>
+                            Scikit Learn -</p>
+                </div>
+                <div class="column is-half">
+                    <object data="/images/compass.svg" class="section-image"></object>
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
+
 </html>

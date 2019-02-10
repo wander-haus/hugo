@@ -1,21 +1,10 @@
-body {
-  font-family: "Averia Serif Libre", sans-serif;
-  background-color: #fff;
-}
-
-.clouds {
-	width: 48%;
-	margin: -9% 0 -14% 0;
-	float: right;
-}
-
-.main-image-container{
-	width: 100%;
+.section-image {
+	max-width: 60%;
+	/* margin: 0 auto; */
+	float: left;
 	display: block;
 }
 
-.main-image{
-		width: 75%;
-    margin: 0 auto;
-    display: block;
+.wander-text {
+	font-family: "Averia Serif Libre", serif;
 }
