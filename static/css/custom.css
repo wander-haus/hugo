@@ -5,6 +5,10 @@
 	display: block;
 }
 
-.wander-text {
-	font-family: "Averia Serif Libre", serif;
+body {
+	font-family: "Averia Serif Libre", serif !important;
+}
+
+ul {
+	list-style-type: disc !important;
 }
